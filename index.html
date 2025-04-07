@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <!-- Conectando arquivo externo do arquivo de estilos CSS --->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Cabeçalho do site --->
+    <header class="format">
+        <h1>Diego Michalowski</h1>
+        <p>Estudante de TI | Futuro ADS | Desenvolvedor</p>
+        <nav class="menu">
+            <ul>
+                <a target="_blank" href="https://www.linkedin.com/in/diego-michalowski-a3052b18a/"><li class="format btnA">LinkedIn</li></a>
+                <a target="_blank" href="https://github.com/DiegoMichalowski"><li class="format btnA">GitHub</li></a>
+                <a target="_blank" href="https://www.instagram.com/diego2_6/"><li class="format btnA">Instagram</li></a>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- Div do conteudo geral do site --->
+    <div class="container">
+        <!-- Section Sobre Mim-->
+        <section id="sobre">
+            <h2 class="titulos">Sobre Mim</h2>
+            <article class="format">
+                <p>Sou estudante de tecnologia, apaixonado por desenvolvimento web e desktop, com grande interesse em segurança da informação. Ao longo da minha jornada,
+                    venho explorando diversas tecnologias, incluindo HTML, CSS, JavaScript, C++, Java, Python, o framework Qt, além de bancos de dados como SQLite3 e MySQL.
+                    Busco sempre aprimorar meus conhecimentos, explorando novas ferramentas e desafios que me permitam evoluir na área.
+                    Estou constantemente aprendendo e me dedicando para construir soluções eficientes e seguras.
+                </p>
+            </article>
+        </section>
+
+        <!-- Section Meus Proejtos-->
+        <section id="projetos">
+            <h2 class="titulos">Meus Projetos</h2>
+            <section class="cards">
+                <!-- Projeto 1-->
+                <article class="format projectCard">
+                    <h3>MountainShooter</h3>
+                    <p>Desenvolvido em python com a bliblioteca PyGame.</p>
+                    <img src="imagens/jogo.png"><br>
+                    <a href="https://github.com/DiegoMichalowski/MountainShooter" target="_blank"><button class="format btnA">GitHub</button></a>
+
+                </article>
+                <!-- Projeto 2-->
+                <article class="format projectCard">
+                    <h3>Tela de Login</h3>
+                    <p>Tela de login desenvolvida com HTML, CSS, JS.</p>
+                    <img src="imagens/telaLogin.png"><br>
+                    <a href="https://github.com/DiegoMichalowski/login-trab" target="_blank"><button class="format btnA">GitHub</button></a>
+
+                </article>
+                <!-- Projeto 3-->
+                <article class="format projectCard">
+                    <h3>Cardápio On-Line</h3>
+                    <p>Desenvolvido com HTML, CSS, JS.</p>
+                    <img src="imagens/cardapio.png"><br>
+                    <a href="https://github.com/DiegoMichalowski/cardapio-trab-" target="_blank"><button class="format btnA">GitHub</button></a>
+
+                </article>
+            </section>
+        </section>
+
+        <!-- Section Para Contato-->
+        <section id="contatos">
+            <h2 class="titulos">Contato</h2>
+            <!--Formulario para contato-->
+            <article class="format">
+                <form action="#" id="formC" onsubmit="form(event)">
+                    <label for="nome">Nome: </label><br>
+                    <input class="format" type="text" name="nome" id="nome"><br>
+                    
+                    <label for="email">E-Mail: </label><br>
+                    <input class="format" type="email" name="email" id="email"><br>
+
+                    <label for="motivo">Motivo do Contato: </label><br>
+                    <textarea class="format" name="motivo" id="motivo" rows="5"></textarea><br><br>
+
+                    <button class="btnA format" type="submit" onclick="clicado()">Enviar</button><br>
+                </form>
+
+            </article>
+        </section>
+    </div>
+    <!-- Rodapé do site --->
+    <footer class="format">
+        <p>Email: <a href="mailto:diegomichalowski18@gmail.com">diegomichalowski18@gmail.com</a> | <a href="https://wa.me/+5542984128547 "> WhatsApp</a></p>
+    </footer>
+    <!-- Conectando arquivo externo do JavaScript --->
+    <script src="assets/script.js"></script>
+</body>
+</html>

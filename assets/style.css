@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(3, 4, 40);
+    color: white;
+}
+/* Congiguração do header e footer */
+header, footer{
+    text-align: center;
+    max-width: 100% !important;
+    
+}
+/* Estilo dos links do site */
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo do menu  */
+.menu ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+    padding: 2px 5px 2px 5px; 
+}
+
+.menu ul{
+    
+    margin-left: -15px;
+}
+
+/* Configuração do conteudo do site */
+.container{ 
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+/* Configuração da seção de projetos */
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo dos elementos do site, essa classe cria o mesmo backgroud, border, border-radios e tamanho dos elementos */
+.format{
+    background-color: #001F3F; 
+    box-shadow: 5px 5px 5px#06f6f6;
+    border: solid #06f6f6; 
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    
+}
+
+/* configuração de cada projeto */
+.projectCard{
+    padding: 8px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    margin: 10px ;  
+    
+}
+
+/* Configurações da imagem dentro do card do projeto */
+.projectCard>img{
+    width: 100%; 
+    height: auto; 
+}
+
+/* Estilo dos titulos principais do site */
+.titulos{
+    text-transform: uppercase;
+    background-color: #001F3F;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid #06f6f6;
+    box-shadow: 5px 5px 5px#06f6f6;  
+    
+}
+
+/* Configuraçoes do formulario */
+#formC{
+    text-align: center;
+    margin: 20px;  
+}
+
+#formC input, textarea{
+    width: 70%;
+    outline: none;
+    margin-bottom: 10px;
+    resize: none;
+    color: white;
+    
+}
+
+/* Configuraçoes dos botões do site */
+.btnA{
+    
+    color: white;  
+}
+
+.btnA:hover{
+    background-color: #06f6f6;
+    border: solid white;
+    box-shadow: 2px 2px 2px white;
+    color: #001F3F;
+    cursor: pointer;   
+}
+
+/* marge da parte inferior da seção contatos */
+#contatos{
+    margin-bottom: 15px;
+}
+
+/* Fonte do texto do rodapé */
+footer p{
+    font-style: italic;
+}
+
+
